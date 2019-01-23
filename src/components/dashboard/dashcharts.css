@@ -1,0 +1,11 @@
+.dashcharts .recharts-wrapper .recharts-surface {
+    width: 100%;
+}
+
+.dashcharts .mdl-grid {
+	margin:-63px;
+}
+
+.dashcharts .mdl-grid .demo-grid-3 .mdl-cell {
+	background-color: white;
+}

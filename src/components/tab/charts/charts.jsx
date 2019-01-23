@@ -1,0 +1,25 @@
+import React,{ Component } from 'react';
+import {Tabs,Tab} from 'react-bootstrap';
+import Linecharts from './linecharts/linecharts';
+import Piecharts from './piecharts/piecharts';
+import Areacharts from './areacharts/areacharts';
+
+export default class charts extends Component{
+	render(){
+		return(
+	        <div className="demo-tabs">
+                <Tabs defaultActiveKey={1} id="uncontrolled-tab-example">
+				  <Tab eventKey={1} title="Pie Charts">
+				   < Piecharts/>
+				  </Tab>
+				  <Tab eventKey={2} title="Line Charts">
+				    < Linecharts/>
+				  </Tab>
+				  <Tab eventKey={3} title="Area Charts">
+				    < Areacharts/>
+				  </Tab>
+				</Tabs>
+            </div>  
+		)
+	}
+}
