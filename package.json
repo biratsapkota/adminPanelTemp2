@@ -5,6 +5,7 @@
   "dependencies": {
     "canvasjs": "^1.8.1",
     "countup": "^1.8.2",
+    "draft-js": "^0.10.5",
     "namor": "^1.1.1",
     "react": "^16.7.0",
     "react-bootstrap": "^0.32.4",

@@ -33,7 +33,7 @@ class dashbox extends Component{
 
 		return(			
 	    <div className="dashbox" style={dashboxStyle}>
-	    	<i class={this.props.classi}></i>
+	    	<i className={this.props.classi}></i>
 	    	<h3> 
 	    		<CountUp end={this.props.number} />
 	    	</h3>
